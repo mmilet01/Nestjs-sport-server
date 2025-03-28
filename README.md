@@ -7,8 +7,8 @@ Sports Management Server is a backend server designed to manage a sports complex
 - **User Registration & Authentication**: Secure registration and login using email and password.
 - **Role-Based Authorization**: Different roles (e.g., admin, user) control access to sports and user management features.
 - **Sports Classes Management**:
-  - **Filtering & Retrieval**: Endpoints like `/api/classes?sports=Basketball,Football` allow users to filter and list sports classes.
-  - **Detailed Information**: Retrieve complete class details (week schedule, duration, description) through endpoints like `/api/classes/{id}`.
+  - **Filtering & Retrieval**: Endpoints like `/classes?sports=Basketball,Football` allow users to filter and list sports classes.
+  - **Detailed Information**: Retrieve complete class details (week schedule, duration, description) through endpoints like `/classes/{id}`.
   - **Application Process**: Users can apply for sports classes. They can see the schedule and spots available within the selected class. Other details like location can be added easily.
 - **Admin Dashboard**: Admin users can perform full CRUD operations on sports classes.
 - **API Documentation**: Interactive API docs generated with Swagger for easy exploration and testing.
